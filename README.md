@@ -12,7 +12,7 @@ Turn bulky 300–1000 page PDF books into structured, chapter-wise files with a 
 [![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/shah-bakhsh/pdf-splitter-pro?style=for-the-badge&color=FFD700)](https://github.com/shah-bakhsh/pdf-splitter-pro/stargazers)
 
-**[🚀 Try Live App](https://pdf-splitter-pro.streamlit.app)** · **[🐛 Report Bug](https://github.com/shah-bakhsh/pdf-splitter-pro/issues)** · **[💡 Request Feature](https://github.com/shah-bakhsh/pdf-splitter-pro/issues)**
+**[🚀 Try Live App](https://pdf-splitter-pro-bveaw3swt4cnu9dnppfntt.streamlit.app/)** · **[🐛 Report Bug](https://github.com/shah-bakhsh/pdf-splitter-pro/issues)** · **[💡 Request Feature](https://github.com/shah-bakhsh/pdf-splitter-pro/issues)**
 
 </div>
 
@@ -56,7 +56,7 @@ Extracting chapters manually is:
 
 **Try it instantly — no login, no setup, no installation:**
 
-### 👉 [https://pdf-splitter-pro.streamlit.app](https://pdf-splitter-pro.streamlit.app)
+### 👉 [https://pdf-splitter-pro.streamlit.app](https://pdf-splitter-pro-bveaw3swt4cnu9dnppfntt.streamlit.app/)
 
 ---
 
