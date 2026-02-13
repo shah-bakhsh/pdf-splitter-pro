@@ -1,18 +1,18 @@
 <div align="center">
 
-# 📘 PDF Chapter Splitter Pro
+# 📘 PDF Intelligence Platform
 
-### Split Large PDFs into Clean, Downloadable Chapters — In Seconds
+### AI-Powered Document Analysis & Smart Chapter Splitting
 
-Turn bulky 300–1000 page PDF books into structured, chapter-wise files with a simple, intuitive web interface.
+Transform massive PDFs into organized, chapter-wise files with built-in AI summaries, keyword extraction, and reading analytics — all from your browser.
 
-[![Live App](https://img.shields.io/badge/🚀_Live_App-Streamlit_Cloud-FF4B4B?style=for-the-badge)](https://pdf-splitter-pro.streamlit.app)
+[![Live App](https://img.shields.io/badge/🚀_Try_Live_App-FF4B4B?style=for-the-badge)](https://pdf-splitter-pro.streamlit.app)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.54-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
 [![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/shah-bakhsh/pdf-splitter-pro?style=for-the-badge&color=FFD700)](https://github.com/shah-bakhsh/pdf-splitter-pro/stargazers)
 
-**[🚀 Try Live App](https://pdf-splitter-pro-bveaw3swt4cnu9dnppfntt.streamlit.app/)** · **[🐛 Report Bug](https://github.com/shah-bakhsh/pdf-splitter-pro/issues)** · **[💡 Request Feature](https://github.com/shah-bakhsh/pdf-splitter-pro/issues)**
+**[🚀 Try Live](https://pdf-splitter-pro.streamlit.app)** · **[🐛 Report Bug](https://github.com/shah-bakhsh/pdf-splitter-pro/issues)** · **[💡 Request Feature](https://github.com/shah-bakhsh/pdf-splitter-pro/issues)**
 
 </div>
 
@@ -20,63 +20,82 @@ Turn bulky 300–1000 page PDF books into structured, chapter-wise files with a 
 
 ## 🎯 The Problem
 
-Students, researchers, and professionals deal with **massive PDF books** daily.
+You have a **500-page PDF textbook**. You need Chapter 7.
 
-Extracting chapters manually is:
-- ⏳ **Slow** — hours of copy-paste work
-- � **Repetitive** — same tedious process every time
-- ❌ **Error-prone** — wrong page ranges, missed content
+Your options:
+- ❌ Scroll endlessly
+- ❌ Screenshot pages one by one
+- ❌ Use a sketchy online tool that uploads your data to unknown servers
 
-### The Solution
+### ✅ The Solution
 
-> **Upload → Define Chapter Ranges → Download Organized PDFs**
+> **Upload → Set Chapter Ranges → Download Clean PDFs**
 >
-> What took hours now takes **seconds**.
+> Plus AI-powered summaries, keywords, and analytics. All processed **in-memory** — your data never leaves your machine.
 
 ---
 
-## ✨ Key Features
+## ✨ Features at a Glance
 
 | Feature | Description |
 |---------|-------------|
-| 📤 **Smart Upload** | Drag & drop any PDF, auto-detects total pages |
-| ✂️ **Multi-Chapter Split** | Split into up to 50 chapters at once |
-| ✏️ **Custom Naming** | Name each chapter exactly how you want |
-| 📥 **Individual Downloads** | Download each chapter as a clean PDF |
-| 💾 **Local Backup** | Auto-saves split files to your machine |
-| 🔒 **Secure Processing** | In-memory processing, no data stored on servers |
-| ⚡ **Lightning Fast** | Processes 1000+ page PDFs in seconds |
-| 🌐 **Zero Installation** | Use directly from your browser |
-
-> **This is not just a script. This is a deployed, production-ready product.**
-
----
-
-## �️ Live Demo
-
-**Try it instantly — no login, no setup, no installation:**
-
-### 👉 [https://pdf-splitter-pro.streamlit.app](https://pdf-splitter-pro-bveaw3swt4cnu9dnppfntt.streamlit.app/)
+| ✂️ **Smart PDF Splitting** | Split any PDF into custom chapters with exact page ranges |
+| 📝 **AI Summaries** | Auto-generated extractive summaries for each chapter |
+| 🔑 **Keyword Extraction** | Top keywords per chapter using frequency analysis |
+| � **Reading Analytics** | Word count, reading difficulty (Flesch-Kincaid), estimated reading time |
+| � **Interactive Charts** | Plotly-powered word distribution and frequent terms visualizations |
+| � **Flexible Downloads** | Individual PDFs, ZIP bundle, or AI analysis report |
+| ⚡ **Two Modes** | "Split Only" (instant) or "Split + AI Analysis" (with insights) |
+| 🔒 **Privacy First** | Everything processed in-memory — zero data stored on any server |
+| 🎨 **Premium UI** | Dark-themed SaaS-quality interface with custom styling |
 
 ---
 
-## ⚙️ How It Works
+## ⚡ Two Action Modes
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+### ✂️ Split Only
+**Instant** — just split, no AI
+
+Perfect when you know exactly what chapters you want and need them fast.
+
+</td>
+<td width="50%" align="center">
+
+### � Split + AI Analysis
+**Smart** — split with full insights
+
+Get summaries, keywords, reading stats, and analytics charts for each chapter.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🖥️ How It Works
 
 ```mermaid
 graph LR
-    A[📄 Upload PDF] --> B[📊 View Total Pages]
-    B --> C[📖 Define Chapters]
-    C --> D[✏️ Set Names & Ranges]
-    D --> E[🔪 Click Split]
-    E --> F[📥 Download PDFs]
+    A[📄 Upload PDF] --> B[📊 See Overview]
+    B --> C[✂️ Set Chapters]
+    C --> D{Choose Mode}
+    D -->|Split Only| E[📥 Download PDFs]
+    D -->|Split + AI| F[🧠 AI Analysis]
+    F --> G[📝 Summaries + Keywords]
+    G --> H[� Analytics Charts]
+    H --> E
 ```
 
-1. **Upload** your PDF book
-2. **View** total number of pages automatically
-3. **Define** number of chapters to create
-4. **Configure** each chapter — name, start page, end page
-5. **Split** with one click
-6. **Download** each chapter individually
+1. **Upload** your PDF — supports books, reports, papers up to 200MB
+2. **Review** document overview — pages, words, reading difficulty, time
+3. **Set** number of chapters — page ranges auto-calculated evenly
+4. **Adjust** names and page ranges to your needs
+5. **Choose** Split Only (fast) or Split + AI (with insights)
+6. **Download** individual PDFs, ZIP bundle, or AI report
 
 ---
 
@@ -84,125 +103,144 @@ graph LR
 
 ```mermaid
 graph TB
-    subgraph Frontend
-        A[Streamlit UI] --> B[File Uploader]
-        A --> C[Chapter Config Forms]
-        A --> D[Download Buttons]
+    subgraph UI["🎨 UI Layer"]
+        A[ui_components.py] --> B[Custom CSS + Styled Cards]
     end
-    subgraph Backend
-        E[pypdf Reader] --> F[Page Extraction]
-        F --> G[PdfWriter per Chapter]
-        G --> H[BytesIO Buffers]
+    subgraph App["⚡ Orchestrator"]
+        C[app.py] --> D[Session State Manager]
     end
-    subgraph State
-        I[Session State Manager]
+    subgraph Processing["📄 Processing"]
+        E[pdf_processor.py] --> F[Text Extraction]
+        E --> G[PDF Splitting]
     end
-    B --> E
-    C --> F
-    H --> D
-    I --> D
+    subgraph AI["🧠 AI Engine"]
+        H[ai_engine.py] --> I[Summarization]
+        H --> J[Keyword Extraction]
+        H --> K[Reading Stats]
+    end
+    subgraph Charts["📊 Analytics"]
+        L[analytics.py] --> M[Plotly Charts]
+    end
 
-    style Frontend fill:#FF4B4B,color:#fff
-    style Backend fill:#3776AB,color:#fff
-    style State fill:#22C55E,color:#fff
+    C --> A
+    C --> E
+    C --> H
+    C --> L
+
+    style UI fill:#FF4B4B,color:#fff
+    style App fill:#F59E0B,color:#fff
+    style Processing fill:#3B82F6,color:#fff
+    style AI fill:#8B5CF6,color:#fff
+    style Charts fill:#22C55E,color:#fff
 ```
 
-- **Stateless processing** — no files stored permanently
-- **In-memory operations** — fast and secure
-- **Session state persistence** — downloads survive page reruns
+| Module | Purpose |
+|--------|---------|
+| `app.py` | Main orchestrator — routes data between all modules |
+| `pdf_processor.py` | PDF reading, text extraction, page-level splitting |
+| `ai_engine.py` | Summaries, keywords, reading stats — pure Python, no heavy models |
+| `analytics.py` | Plotly charts — word distribution, frequent terms |
+| `ui_components.py` | Premium CSS, hero header, metric cards, chapter cards |
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose |
-|-----------|---------|
-| **Python 3.10+** | Core language |
-| **Streamlit** | Web application framework |
-| **pypdf** | PDF reading, splitting & writing |
-| **Session State** | Persistent download management |
+| Technology | Role | Why |
+|-----------|------|-----|
+| **Python 3.10+** | Core language | Modern, readable, powerful |
+| **Streamlit** | Web framework | Rapid UI development, free cloud hosting |
+| **pypdf** | PDF engine | Fast, pure-Python PDF manipulation |
+| **Plotly** | Charts | Interactive, dark-mode compatible visualizations |
+| **scikit-learn** | NLP toolkit | TF-IDF vectorization for keyword extraction |
+
+> **Design Decision:** No heavy AI models (no GPT, no spaCy). The platform uses efficient extractive algorithms for speed and lightweight deployment.
 
 ---
 
-## 🚀 Deployment
-
-Deployed on **Streamlit Community Cloud** with zero-config CI/CD:
+## 🚀 Deploy on Streamlit Cloud
 
 ```
-GitHub Push → Auto Build → Live Web App
+GitHub Push → Auto Build → Live Web App (Free!)
 ```
 
-| Platform | Status |
-|----------|--------|
-| Streamlit Cloud | ✅ Live |
-| Local Development | ✅ Supported |
+1. Fork this repo
+2. Go to [share.streamlit.io](https://share.streamlit.io)
+3. Connect your GitHub → Select `pdf-splitter-pro` → Main file: `app.py`
+4. Click **Deploy** 🚀
 
 ---
 
 ## 💻 Run Locally
 
 ```bash
-# Clone the repository
+# Clone
 git clone https://github.com/shah-bakhsh/pdf-splitter-pro.git
 cd pdf-splitter-pro
 
-# Install dependencies
+# Install
 pip install -r requirements.txt
 
-# Launch the app
+# Launch
 streamlit run app.py
 ```
 
-Open `http://localhost:8501` in your browser. That's it.
+Opens at `http://localhost:8501` — that's it.
 
 ---
 
-## � Project Structure
+## 📁 Project Structure
 
 ```
 pdf-splitter-pro/
-├── app.py              # Main application — UI + splitting logic
-├── requirements.txt    # Python dependencies
-├── .gitignore          # Git ignore rules
-└── README.md           # You are here
+├── app.py                # Main Streamlit app — orchestrates everything
+├── pdf_processor.py      # PDF text extraction & splitting engine
+├── ai_engine.py          # AI summaries, keywords, reading stats
+├── analytics.py          # Plotly chart generators
+├── ui_components.py      # Premium UI components & CSS
+├── requirements.txt      # Python dependencies
+├── .gitignore
+└── README.md
 ```
 
 ---
 
 ## 🧠 Use Cases
 
-| Audience | Use Case |
-|----------|----------|
-| 🎓 **Students** | Organize textbooks into chapter PDFs for focused study |
-| 👨‍🏫 **Teachers** | Prepare chapter-wise materials for distribution |
-| 🔬 **Researchers** | Extract specific sections from lengthy papers |
-| 💼 **Professionals** | Split reports, manuals, and documentation |
-| 📚 **Book Lovers** | Break down eBooks into manageable sections |
+| Who | Use Case |
+|-----|----------|
+| 🎓 **Students** | Split textbooks into chapter PDFs for focused study |
+| �‍🏫 **Teachers** | Prepare chapter-wise materials for distribution |
+| 🔬 **Researchers** | Extract sections from lengthy academic papers |
+| 💼 **Professionals** | Split reports, contracts, and manuals |
+| 📚 **Book Lovers** | Organize eBooks into readable chunks |
 
 ---
 
 ## 🔮 Roadmap
 
-- [ ] 🔖 **Bookmark-based** auto chapter detection
-- [ ] 🤖 **AI-powered** content segmentation
-- [ ] 🔐 **Authentication** system
-- [ ] 📊 **Usage tracking** dashboard
-- [ ] 💰 **SaaS** subscription model
-- [ ] 🌐 **Custom domain** branding
-- [ ] 📱 **Mobile-responsive** UI enhancement
+- [ ] 🔖 Bookmark-based automatic chapter detection
+- [ ] 🤖 LLM-powered intelligent summaries
+- [ ] 📱 Mobile-responsive UI
+- [ ] 🌐 Multi-language document support
+- [ ] 🔐 Authentication & user accounts
+- [ ] 📊 Usage analytics dashboard
+- [ ] 💰 SaaS subscription model
 
 ---
 
 ## 👨‍💻 About the Developer
 
-Built as a **real-world, production-ready tool** demonstrating:
+This project demonstrates production-level skills in:
 
-- ✅ Full-stack Python development
-- ✅ PDF processing & file manipulation
-- ✅ Web application deployment
-- ✅ SaaS-ready architecture
-- ✅ Clean, professional UI/UX
-- ✅ Production deployment pipeline
+| Skill | Implementation |
+|-------|---------------|
+| **Full-Stack Python** | Modular architecture, clean code, session management |
+| **NLP & AI** | Extractive summarization, TF-IDF analysis, reading metrics |
+| **Data Visualization** | Interactive Plotly charts with dark theme |
+| **Web Development** | Custom CSS, responsive UI, SaaS-quality design |
+| **Cloud Deployment** | Streamlit Cloud CI/CD pipeline |
+| **PDF Engineering** | In-memory processing, efficient byte buffer management |
 
 **Built by [Shah Bakhsh](https://github.com/shah-bakhsh)** 🚀
 
@@ -210,18 +248,16 @@ Built as a **real-world, production-ready tool** demonstrating:
 
 <div align="center">
 
-## ⭐ Support This Project
-
-**If this tool saved you time, show some love:**
+## ⭐ Like This Project?
 
 [![Star](https://img.shields.io/badge/⭐_Star_This_Repo-FFD700?style=for-the-badge)](https://github.com/shah-bakhsh/pdf-splitter-pro)
 [![Fork](https://img.shields.io/badge/🍴_Fork_It-4A90D9?style=for-the-badge)](https://github.com/shah-bakhsh/pdf-splitter-pro/fork)
-[![Share](https://img.shields.io/badge/📢_Share_It-22C55E?style=for-the-badge)](https://twitter.com/intent/tweet?text=Check%20out%20PDF%20Chapter%20Splitter%20Pro%20-%20Split%20large%20PDFs%20into%20chapters%20instantly!%20https://github.com/shah-bakhsh/pdf-splitter-pro)
+[![Share](https://img.shields.io/badge/📢_Share-22C55E?style=for-the-badge)](https://twitter.com/intent/tweet?text=Check%20out%20this%20AI-powered%20PDF%20Intelligence%20Platform!%20Split%20PDFs,%20get%20AI%20summaries%20%26%20analytics%20🚀%20https://github.com/shah-bakhsh/pdf-splitter-pro)
 
-**Every ⭐ motivates me to build more open-source tools!**
+**Every ⭐ motivates building more open-source tools!**
 
 ---
 
-*Built with ❤️ using Python & Streamlit*
+*Built with ❤️ using Python, Streamlit & AI*
 
 </div>
