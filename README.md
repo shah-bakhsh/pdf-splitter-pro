@@ -27,7 +27,7 @@ git init
 git add .
 git commit -m "Initial commit: PDF Chapter Splitter Pro"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/pdf-splitter-pro.git
+git remote add origin https://github.com/shah-bakhsh/pdf-splitter-pro.git
 git push -u origin main
 ```
 
@@ -35,7 +35,7 @@ git push -u origin main
 1. Go to [share.streamlit.io](https://share.streamlit.io)
 2. Sign in with your **GitHub** account
 3. Click **"New app"**
-4. Select your repository: `YOUR_USERNAME/pdf-splitter-pro`
+4. Select your repository: `shah-bakhsh/pdf-splitter-pro`
 5. Set **Main file path** to: `app.py`
 6. Click **"Deploy!"** 🚀
 
@@ -45,7 +45,7 @@ Your app will be live at: `https://YOUR_APP_NAME.streamlit.app`
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/pdf-splitter-pro.git
+git clone https://github.com/shah-bakhsh/pdf-splitter-pro.git
 cd pdf-splitter-pro
 ```
 
